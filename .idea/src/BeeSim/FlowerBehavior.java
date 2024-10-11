@@ -1,6 +1,6 @@
 package BeeSim;
 
 public interface FlowerBehavior {
-    public void whenTagged();
+    public void whenTagged(Bee bee);
     public void onTick();
 }
